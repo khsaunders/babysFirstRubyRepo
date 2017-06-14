@@ -13,7 +13,7 @@ def get_genre(movie)
   if movie == "Mad Max Fury Road" || movie == "Mad Max: Fury Road"
     print "That's a great movie!! You will ride eternal shiny and chrome!!"
     else
-    print "Hmm, I haven't head of that one because it isn't Mad Max: Fury Road. What genre is that?"
+    print "Hmm, I haven't heard of that one because it isn't Mad Max: Fury Road. What genre is that?"
     return gets.chomp
     end
   end
