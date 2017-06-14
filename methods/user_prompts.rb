@@ -5,7 +5,7 @@ def get_name()
 
 #asks user for favorite movie
 def get_movie(name)
-  print "So, #{name}, what's your favorite movie?"
+  print "So, #{name}, what's your favorite movie? "
   return gets.chomp
   end
 
