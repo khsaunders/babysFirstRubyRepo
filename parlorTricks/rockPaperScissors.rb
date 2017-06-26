@@ -5,6 +5,10 @@ def choose_wisely()
 
 user_choice = choose_wisely()
 
+# if user_choice != "rock" || user_choice != "paper" || user_choice != "scissors"
+#   print "Oops! I don't recognize that answer"
+# end
+
 computer_choice = rand(1..3)
   if computer_choice == 1
     print "Computer chose scissors \n"
